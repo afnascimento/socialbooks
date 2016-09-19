@@ -2,10 +2,9 @@ package com.algaworks.socialbooks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.context.web.SpringBootServletInitializer;
+//import org.springframework.boot.builder.SpringApplicationBuilder;
+//import org.springframework.boot.context.web.SpringBootServletInitializer;
 
-/*
 @SpringBootApplication
 public class SocialbooksApplication {
 
@@ -13,7 +12,7 @@ public class SocialbooksApplication {
 		SpringApplication.run(SocialbooksApplication.class, args);
 	}
 }
-*/
+/*
 @SpringBootApplication
 public class SocialbooksApplication extends SpringBootServletInitializer {
 
@@ -26,3 +25,4 @@ public class SocialbooksApplication extends SpringBootServletInitializer {
         return application.sources(SocialbooksApplication.class);
     }
 } 
+*/
