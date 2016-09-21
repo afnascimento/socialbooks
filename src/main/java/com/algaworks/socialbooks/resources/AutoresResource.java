@@ -42,6 +42,11 @@ public class AutoresResource {
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Autor> buscar(@PathVariable("id") Long id) {
 		Autor autor = autoresService.buscar(id);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return ResponseEntity.status(HttpStatus.OK).body(autor);
 	}
 	
