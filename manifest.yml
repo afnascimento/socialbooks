@@ -1,0 +1,11 @@
+---
+applications:
+- name: cf-socialbooks
+  memory: 512M
+  instances: 1
+  random-route: true
+  host: cf-socialbooks
+  domain: cfapps.io
+  buildpack: java_buildpack
+  services:
+  - anascimento-db
